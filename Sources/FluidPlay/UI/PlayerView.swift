@@ -52,7 +52,7 @@ final class ChromeController: ObservableObject {
     }
 
     private func timerFired() {
-        if islandHovered || panelOpen {
+        if islandHovered || panelOpen || UITest.keepsChromeVisible {
             restartTimer()
             return
         }

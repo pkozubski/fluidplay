@@ -12,6 +12,8 @@ enum UITest {
     private static var started = false
     /// The in-game bar shows console buttons even with a test pattern (so they're visible in the screenshot).
     static var showsConsoleControls = false
+    /// Keeps the in-game bar on screen for the screenshot even when the pointer is outside the window.
+    static var keepsChromeVisible = false
 
     static func runIfRequested(model: AppModel) {
         let arguments = CommandLine.arguments
@@ -47,10 +49,12 @@ enum UITest {
                 NSApp.terminate(nil)
                 return
             }
+            keepsChromeVisible = true
             model.play(item)
             try? await Task.sleep(for: .seconds(1.2))
             await capture(model.mainWindow, to: directory.appendingPathComponent("2-game-island.png"))
             report(model)
+            keepsChromeVisible = false
 
             try? await Task.sleep(for: .seconds(3))
             await capture(model.mainWindow, to: directory.appendingPathComponent("3-game-no-island.png"))

@@ -53,7 +53,7 @@ struct HomeView: View {
             HStack(spacing: 12) {
                 HStack(spacing: 10) {
                     AppMark(size: 30)
-                    HStack(spacing: 5) {
+                    HStack(spacing: 0) {
                         Text(verbatim: "Fluid")
                             .font(.system(size: 17, weight: .bold, design: .rounded))
                         Text(verbatim: "Play")
