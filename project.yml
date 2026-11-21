@@ -1,0 +1,79 @@
+name: VeyraMac
+options:
+  bundleIdPrefix: dev.veyramac
+  deploymentTarget:
+    macOS: "26.0"
+  createIntermediateGroups: true
+  # English is the development language; Polish comes from Localizable.xcstrings.
+  developmentLanguage: en
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+    MACOSX_DEPLOYMENT_TARGET: "26.0"
+    MARKETING_VERSION: "1.0.0"
+    SWIFT_EMIT_LOC_STRINGS: YES
+    LOCALIZATION_PREFERS_STRING_CATALOGS: YES
+    CURRENT_PROJECT_VERSION: "1"
+    ENABLE_USER_SCRIPT_SANDBOXING: YES
+targets:
+  VeyraMac:
+    type: application
+    platform: macOS
+    sources:
+      - Sources/VeyraMac
+    info:
+      path: Support/Info.plist
+      properties:
+        CFBundleDisplayName: Veyra Mac
+        CFBundleShortVersionString: "$(MARKETING_VERSION)"
+        CFBundleVersion: "$(CURRENT_PROJECT_VERSION)"
+        # Games category + Game Mode: in full screen macOS prioritizes the app on the CPU/GPU and
+        # doubles the Bluetooth controller polling rate.
+        LSApplicationCategoryType: public.app-category.games
+        LSSupportsGameMode: true
+        GCSupportsGameMode: true
+        LSMinimumSystemVersion: "26.0"
+        NSHighResolutionCapable: true
+        NSLocalNetworkUsageDescription: VeyraMac connects to your PS5 on the local network (discovery, pairing and the Remote Play stream).
+        NSHumanReadableCopyright: "Copyright © 2026 VeyraMac contributors. Licensed under AGPL-3.0."
+        CFBundleDevelopmentRegion: en
+        CFBundleAllowMixedLocalizations: true
+        GCSupportsControllerUserInteraction: true
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: dev.veyramac.app
+        PRODUCT_NAME: VeyraMac
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        GENERATE_INFOPLIST_FILE: NO
+        # Signing is done by Scripts/build.sh / Scripts/release.sh, not by Xcode.
+        CODE_SIGNING_ALLOWED: NO
+        # Inert while Xcode does not sign. Scripts/release.sh signs with `--options runtime`
+        # (hardened runtime, required for notarization); local builds stay without it.
+        ENABLE_HARDENED_RUNTIME: NO
+        SWIFT_STRICT_CONCURRENCY: minimal
+        # Built-in Remote Play: C bridge + chiaki-ng built by Scripts/build-chiaki.sh.
+        SWIFT_OBJC_BRIDGING_HEADER: Sources/VeyraMac/RemotePlay/Bridge/VeyraMac-Bridging-Header.h
+        HEADER_SEARCH_PATHS:
+          - $(SRCROOT)/Vendor/chiaki-ng/lib/include
+          - $(SRCROOT)/Vendor/build/chiaki/lib/include
+          - $(SRCROOT)/Vendor/build/chiaki/lib/protobuf
+          - $(SRCROOT)/Vendor/chiaki-ng/third-party/nanopb
+          - /opt/homebrew/opt/openssl@3/include
+          - /opt/homebrew/opt/opus/include/opus
+        LIBRARY_SEARCH_PATHS:
+          - $(SRCROOT)/Vendor/build/chiaki/lib
+          - $(SRCROOT)/Vendor/build/chiaki/third-party
+          - $(SRCROOT)/Vendor/build/chiaki/third-party/nanopb
+          - /opt/homebrew/opt/openssl@3/lib
+          - /opt/homebrew/opt/curl/lib
+          - /opt/homebrew/lib
+        # Libraries chiaki-ng needs. Local builds link the Homebrew dylibs, which only exist on a Mac
+        # with Homebrew. Scripts/release.sh overrides this setting (static archives, the system
+        # libcurl and a pipe2 shim) so the distributed app runs on any Mac with macOS 26.
+        VEYRAMAC_THIRD_PARTY_LDFLAGS: -lcrypto -lopus -ljson-c -lminiupnpc -levent -lcurl
+        OTHER_LDFLAGS:
+          - -lchiaki
+          - -ljerasure
+          - -lgf_complete
+          - -lprotobuf-nanopb
+          - $(VEYRAMAC_THIRD_PARTY_LDFLAGS)

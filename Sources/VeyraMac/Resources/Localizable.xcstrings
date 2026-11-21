@@ -1,0 +1,2451 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "%@ Mbps": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ Mb/s"
+          }
+        }
+      }
+    },
+    "%@ fps at %@ Hz · latency +%@ ms": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ kl./s na %@ Hz · opóźnienie +%@ ms"
+          }
+        }
+      }
+    },
+    "%@ · %@ fps": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ · %@ kl./s"
+          }
+        }
+      }
+    },
+    "%@ · %@ · %@": {},
+    "%@ → %@ fps · %@ ms": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ → %@ kl./s · %@ ms"
+          }
+        }
+      }
+    },
+    "%@%% · hitches %lld (network %lld · Mac %lld · game %lld)": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@%% · zacięcia %lld (sieć %lld · Mac %lld · gra %lld)"
+          }
+        }
+      }
+    },
+    "%@%% · no hitches": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@%% · bez zacięć"
+          }
+        }
+      }
+    },
+    "%lld": {},
+    "%lld Mbps": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld Mb/s"
+          }
+        }
+      }
+    },
+    "%lld fps": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld kl./s"
+          }
+        }
+      }
+    },
+    "%lld → %lld fps": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld → %lld kl./s"
+          }
+        }
+      }
+    },
+    "%lld%%": {},
+    "(%@ unique)": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "(unikalne %@)"
+          }
+        }
+      }
+    },
+    "1080p": {},
+    "15 Mbps (same as Sony's app)": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "15 Mb/s (jak aplikacja Sony)"
+          }
+        }
+      }
+    },
+    "540p": {},
+    "720p": {},
+    "720p lets you turn on ML super resolution. H.265 gives a better picture at the same bandwidth. A higher bitrate means less blockiness in fast scenes, but more lost packets on weak Wi‑Fi — the stats show how many Mbps actually arrive.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "720p pozwala włączyć super rozdzielczość ML. H.265 daje lepszy obraz przy tej samej przepustowości. Wyższa przepływność to mniej „kostki” w szybkich scenach, ale na słabym Wi‑Fi więcej zgubionych pakietów — w statystykach widać, ile Mb/s faktycznie przychodzi."
+          }
+        }
+      }
+    },
+    "8 digits": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "8 cyfr"
+          }
+        }
+      }
+    },
+    "Account login passcode": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kod logowania do konta"
+          }
+        }
+      }
+    },
+    "Active: %@× to %lld×%lld.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Działa: %@× do %lld×%lld."
+          }
+        }
+      }
+    },
+    "Adaptive triggers": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Adaptacyjne spusty"
+          }
+        }
+      }
+    },
+    "Add PS5 console": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dodaj konsolę PS5"
+          }
+        }
+      }
+    },
+    "Add console": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dodaj konsolę"
+          }
+        }
+      }
+    },
+    "Add console…": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dodaj konsolę…"
+          }
+        }
+      }
+    },
+    "Advanced": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zaawansowane"
+          }
+        }
+      }
+    },
+    "All windows (%lld)": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wszystkie okna (%lld)"
+          }
+        }
+      }
+    },
+    "All windows and test patterns on the home screen.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wszystkie okna i wzorce testowe na ekranie startowym."
+          }
+        }
+      }
+    },
+    "Allow…": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zezwól…"
+          }
+        }
+      }
+    },
+    "Always generates frames when the game doesn't fill the display refresh rate — even at 50–55 fps.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dorabia klatki zawsze, gdy gra nie wypełnia odświeżania ekranu — także przy 50–55 kl./s."
+          }
+        }
+      }
+    },
+    "Apple's model upscales video up to 720p by 1.5× before it reaches the display.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Model Apple powiększa obraz do 720p o 1,5×, zanim trafi na ekran."
+          }
+        }
+      }
+    },
+    "Applies to capturing windows (e.g. PXPlay, Moonlight) and the whole display. Built-in Remote Play doesn't use these settings.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dotyczy przechwytywania okien (np. PXPlay, Moonlight) i całego ekranu. Wbudowany Remote Play z tego nie korzysta."
+          }
+        }
+      }
+    },
+    "Auto": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Auto"
+          }
+        }
+      }
+    },
+    "Auto (up to 1080p)": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Auto (do 1080p)"
+          }
+        }
+      }
+    },
+    "Better quality at the same network bandwidth.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lepsza jakość przy tej samej przepustowości sieci."
+          }
+        }
+      }
+    },
+    "Bitrate": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Przepływność"
+          }
+        }
+      }
+    },
+    "Built-in Remote Play · %@": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wbudowany Remote Play · %@"
+          }
+        }
+      }
+    },
+    "Cancel": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Anuluj"
+          }
+        }
+      }
+    },
+    "Capture": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Przechwytywanie"
+          }
+        }
+      }
+    },
+    "Changing quality briefly reconnects the stream.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zmiana jakości na chwilę łączy strumień ponownie."
+          }
+        }
+      }
+    },
+    "Click “Play” — the cursor and controls hide while you play": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kliknij „Graj” — kursor i przyciski chowają się w trakcie gry"
+          }
+        }
+      }
+    },
+    "Connect a DualSense via Bluetooth or USB": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Podłącz DualSense przez Bluetooth lub USB"
+          }
+        }
+      }
+    },
+    "Connect a controller": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Podłącz pada"
+          }
+        }
+      }
+    },
+    "Connected": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Podłączony"
+          }
+        }
+      }
+    },
+    "Connecting to %@…": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Łączenie z %@…"
+          }
+        }
+      }
+    },
+    "Connecting to the console…": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Łączenie z konsolą…"
+          }
+        }
+      }
+    },
+    "Connecting…": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Łączenie…"
+          }
+        }
+      }
+    },
+    "Console": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Konsola"
+          }
+        }
+      }
+    },
+    "Console IP address": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Adres IP konsoli"
+          }
+        }
+      }
+    },
+    "Console settings": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ustawienia konsoli"
+          }
+        }
+      }
+    },
+    "Consoles": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Konsole"
+          }
+        }
+      }
+    },
+    "Controller": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pad"
+          }
+        }
+      }
+    },
+    "Controller ready to play": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pad gotowy do gry"
+          }
+        }
+      }
+    },
+    "Couldn't allocate an output buffer.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nie udało się przydzielić bufora wyjściowego."
+          }
+        }
+      }
+    },
+    "Couldn't connect": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nie udało się połączyć"
+          }
+        }
+      }
+    },
+    "Couldn't connect to the console. Check the IP address and network.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nie udało się połączyć z konsolą. Sprawdź adres IP i sieć."
+          }
+        }
+      }
+    },
+    "Couldn't create the texture cache.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nie udało się utworzyć pamięci tekstur."
+          }
+        }
+      }
+    },
+    "Couldn't start the session: %@": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nie udało się uruchomić sesji: %@"
+          }
+        }
+      }
+    },
+    "Couldn't start the source: %@": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nie udało się uruchomić źródła: %@"
+          }
+        }
+      }
+    },
+    "Crop window title bar": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Przytnij pasek tytułu okna"
+          }
+        }
+      }
+    },
+    "Currently receiving %@ Mbps.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Teraz przychodzi %@ Mb/s."
+          }
+        }
+      }
+    },
+    "Demo": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Demo"
+          }
+        }
+      }
+    },
+    "Demo · 30 fps game": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Demo · gra 30 kl./s"
+          }
+        }
+      }
+    },
+    "Detects 30 fps games sent in a 60 fps stream, so frames are generated between the real ones.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rozpoznaje gry 30 kl./s nadawane w strumieniu 60 kl./s, żeby generować klatki między prawdziwymi."
+          }
+        }
+      }
+    },
+    "Display": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ekran"
+          }
+        }
+      }
+    },
+    "Display %lld": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ekran %lld"
+          }
+        }
+      }
+    },
+    "DualSense mode": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tryb DualSense"
+          }
+        }
+      }
+    },
+    "DualSense mode: the console sends haptics, adaptive trigger effects and the light bar color. Turn it off if you play with an Xbox or DualShock 4 controller — you'll get regular vibration.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tryb DualSense: konsola wysyła haptykę, efekty adaptacyjnych spustów i kolor paska świetlnego. Wyłącz, jeśli grasz na padzie Xbox lub DualShock 4 — dostaniesz zwykłe wibracje."
+          }
+        }
+      }
+    },
+    "DualSense trigger resistance and vibration, set by the game.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Opór i drgania spustów DualSense ustawiane przez grę."
+          }
+        }
+      }
+    },
+    "End": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zakończ"
+          }
+        }
+      }
+    },
+    "End game": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zakończ grę"
+          }
+        }
+      }
+    },
+    "End the game and return to the home screen": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zakończ grę i wróć do ekranu startowego"
+          }
+        }
+      }
+    },
+    "Enter the console's IP address.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Podaj adres IP konsoli."
+          }
+        }
+      }
+    },
+    "Entire display %@×%@": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cały ekran %@×%@"
+          }
+        }
+      }
+    },
+    "Every display refresh gets a frame: either a real one or one computed between two real ones. A 24, 30 or 40 fps game then plays at a steady 60 fps on a 60 Hz display. Adds about 20–40 ms of latency.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Każde odświeżenie ekranu dostaje klatkę: prawdziwą albo wyliczoną między dwiema prawdziwymi. Gra 24, 30 czy 40 kl./s daje wtedy równe 60 kl./s na ekranie 60 Hz. Dodaje ok. 20–40 ms opóźnienia."
+          }
+        }
+      }
+    },
+    "Exit full screen": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wyjście z pełnego ekranu"
+          }
+        }
+      }
+    },
+    "FRAME GENERATION": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "GENEROWANIE KLATEK"
+          }
+        }
+      }
+    },
+    "Find consoles and refresh sources": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Szukaj konsol i odśwież źródła"
+          }
+        }
+      }
+    },
+    "For weaker Wi‑Fi.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dla słabszego Wi‑Fi."
+          }
+        }
+      }
+    },
+    "Frame generation": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Generowanie klatek"
+          }
+        }
+      }
+    },
+    "Frame generation on/off": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Generowanie klatek wł./wył."
+          }
+        }
+      }
+    },
+    "Frame generation: %@": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Generowanie klatek: %@"
+          }
+        }
+      }
+    },
+    "Frames": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Klatki"
+          }
+        }
+      }
+    },
+    "Full screen": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pełny ekran"
+          }
+        }
+      }
+    },
+    "Full screen after clicking “Play”": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pełny ekran po kliknięciu „Graj”"
+          }
+        }
+      }
+    },
+    "Game": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gra"
+          }
+        }
+      }
+    },
+    "Game screen": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ekran gry"
+          }
+        }
+      }
+    },
+    "Generates frames up to the full display refresh rate when the game clearly falls short of it (below about 85%).": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dorabia klatki do pełnego odświeżania ekranu, gdy gra wyraźnie go nie wypełnia (poniżej ok. 85%)."
+          }
+        }
+      }
+    },
+    "Granted": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Przyznane"
+          }
+        }
+      }
+    },
+    "H.265 codec": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kodek H.265"
+          }
+        }
+      }
+    },
+    "Here: enter the PIN from the console screen and your PSN account ID": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tutaj: wpisz kod z ekranu konsoli i identyfikator konta PSN"
+          }
+        }
+      }
+    },
+    "Hide stats": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ukryj statystyki"
+          }
+        }
+      }
+    },
+    "Image": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Obraz"
+          }
+        }
+      }
+    },
+    "Interpolation doesn't support the size %@×%@.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Interpolacja nie obsługuje rozmiaru %@×%@."
+          }
+        }
+      }
+    },
+    "Invalid PSN account ID. Paste the numeric ID or the Base64 one (it's not the username).": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nieprawidłowy identyfikator konta PSN. Wklej identyfikator liczbowy albo w formacie Base64 (to nie jest nazwa użytkownika)."
+          }
+        }
+      }
+    },
+    "Keychain error (%@).": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Błąd pęku kluczy (%@)."
+          }
+        }
+      }
+    },
+    "Less blockiness in fast scenes; choose lower on weak Wi‑Fi.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mniej „kostki” w szybkich scenach; na słabym Wi‑Fi wybierz mniej."
+          }
+        }
+      }
+    },
+    "Lets you turn on ML super resolution and speeds up frame generation.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pozwala włączyć super rozdzielczość ML i szybciej generuje klatki."
+          }
+        }
+      }
+    },
+    "Link console": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Połącz konsolę"
+          }
+        }
+      }
+    },
+    "Link your PS5 and play more smoothly": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Połącz PS5 i graj płynniej"
+          }
+        }
+      }
+    },
+    "Loading model…": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ładowanie modelu…"
+          }
+        }
+      }
+    },
+    "Log in": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zaloguj"
+          }
+        }
+      }
+    },
+    "Looking for the console…": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Szukanie konsoli…"
+          }
+        }
+      }
+    },
+    "ML super resolution": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Super rozdzielczość ML"
+          }
+        }
+      }
+    },
+    "ML super resolution doesn't support the input %@×%@.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Super rozdzielczość ML nie obsługuje wejścia %@×%@."
+          }
+        }
+      }
+    },
+    "ML super resolution works for video up to 720p. MetalFX fits the result to the display's resolution.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Super rozdzielczość ML działa dla obrazu do 720p. MetalFX dopasowuje wynik do rozdzielczości ekranu."
+          }
+        }
+      }
+    },
+    "ML: input too large (max 720p)": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ML: wejście za duże (maks. 720p)"
+          }
+        }
+      }
+    },
+    "ML: loading model…": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ML: ładowanie modelu…"
+          }
+        }
+      }
+    },
+    "Mac": {},
+    "Max": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Maks."
+          }
+        }
+      }
+    },
+    "Maximum": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Maksimum"
+          }
+        }
+      }
+    },
+    "Metal isn't available.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Metal jest niedostępny."
+          }
+        }
+      }
+    },
+    "MetalFX upscaling": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Skalowanie MetalFX"
+          }
+        }
+      }
+    },
+    "Mode": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tryb"
+          }
+        }
+      }
+    },
+    "Mute": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wycisz"
+          }
+        }
+      }
+    },
+    "No console found on the local network. Enter the IP address manually.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nie znaleziono konsoli w sieci lokalnej. Wpisz adres IP ręcznie."
+          }
+        }
+      }
+    },
+    "No frame generation — lowest latency.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bez generowania klatek — najmniejsze opóźnienie."
+          }
+        }
+      }
+    },
+    "No paired consoles.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Brak sparowanych konsol."
+          }
+        }
+      }
+    },
+    "Not supported on this Mac": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Brak obsługi na tym Macu"
+          }
+        }
+      }
+    },
+    "Off": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wyłączone"
+          }
+        }
+      }
+    },
+    "On your PS5, open Settings → System → Remote Play → Link Device and enter the PIN shown there. The account ID is the number assigned to your PSN account (not your username) — tools such as PSNTools, which Veyra also uses, can look it up.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Na PS5 otwórz Ustawienia → System → Zdalna rozgrywka → Połącz urządzenie i przepisz kod. Identyfikator konta to liczba przypisana do konta PSN (nie nazwa użytkownika) — podają ją narzędzia takie jak PSNTools, z którego korzysta też Veyra."
+          }
+        }
+      }
+    },
+    "On your PS5: Settings → System → Remote Play → Link Device": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Na PS5: Ustawienia → System → Zdalna rozgrywka → Połącz urządzenie"
+          }
+        }
+      }
+    },
+    "Other apps' windows": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Okna innych aplikacji"
+          }
+        }
+      }
+    },
+    "Other sources": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Inne źródła"
+          }
+        }
+      }
+    },
+    "Overlay": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nakładka"
+          }
+        }
+      }
+    },
+    "Overlay / full screen": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nakładka / pełny ekran"
+          }
+        }
+      }
+    },
+    "PIN from the PS5 screen": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kod z ekranu PS5"
+          }
+        }
+      }
+    },
+    "PS button — console menu": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Przycisk PS — menu konsoli"
+          }
+        }
+      }
+    },
+    "PS5 stream": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Strumień z PS5"
+          }
+        }
+      }
+    },
+    "PSN account ID": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Identyfikator konta PSN"
+          }
+        }
+      }
+    },
+    "Pair": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sparuj"
+          }
+        }
+      }
+    },
+    "Pair with the PIN shown on your PS5": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sparuj kodem z ekranu PS5"
+          }
+        }
+      }
+    },
+    "Paired consoles": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sparowane konsole"
+          }
+        }
+      }
+    },
+    "Pairing": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Parowanie"
+          }
+        }
+      }
+    },
+    "Pairing failed (code %@).": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Parowanie nie powiodło się (kod %@)."
+          }
+        }
+      }
+    },
+    "Pairing keys are stored in the macOS keychain. The console's IP address updates automatically when your router changes it.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Klucze z parowania są zapisane w pęku kluczy macOS. Adres IP konsoli aktualizuje się sam, gdy router go zmieni."
+          }
+        }
+      }
+    },
+    "Passcode": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kod"
+          }
+        }
+      }
+    },
+    "Permissions": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Uprawnienia"
+          }
+        }
+      }
+    },
+    "Play": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Graj"
+          }
+        }
+      }
+    },
+    "Play on console — %@": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Graj na konsoli — %@"
+          }
+        }
+      }
+    },
+    "Press Esc or SHARE + OPTIONS on the controller to cancel": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esc albo SHARE + OPTIONS na padzie przerywa łączenie"
+          }
+        }
+      }
+    },
+    "Press Esc to cancel": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esc przerywa łączenie"
+          }
+        }
+      }
+    },
+    "Processing resolution": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rozdzielczość przetwarzania"
+          }
+        }
+      }
+    },
+    "Ready": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Włączona"
+          }
+        }
+      }
+    },
+    "Recently played": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ostatnio grane"
+          }
+        }
+      }
+    },
+    "Refresh list": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Odśwież listę"
+          }
+        }
+      }
+    },
+    "Refresh sources": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Odśwież źródła"
+          }
+        }
+      }
+    },
+    "Remote Play is already in use on this console (e.g. by the official app).": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Remote Play jest już używany na tej konsoli (np. przez oficjalną aplikację)."
+          }
+        }
+      }
+    },
+    "Remote Play on the console crashed. Restart the console.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Remote Play na konsoli uległ awarii. Uruchom konsolę ponownie."
+          }
+        }
+      }
+    },
+    "Remove": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usuń"
+          }
+        }
+      }
+    },
+    "Resolution": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rozdzielczość"
+          }
+        }
+      }
+    },
+    "Rest mode": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tryb spoczynku"
+          }
+        }
+      }
+    },
+    "Scaling": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Skala"
+          }
+        }
+      }
+    },
+    "Screen Recording": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nagrywanie ekranu"
+          }
+        }
+      }
+    },
+    "Search again": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Szukaj ponownie"
+          }
+        }
+      }
+    },
+    "Searching for consoles on the network…": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Szukanie konsol w sieci…"
+          }
+        }
+      }
+    },
+    "Searching…": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Szukanie…"
+          }
+        }
+      }
+    },
+    "Session ended: %@ (code %@).": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sesja zakończona: %@ (kod %@)."
+          }
+        }
+      }
+    },
+    "Settings (⌘,)": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ustawienia (⌘,)"
+          }
+        }
+      }
+    },
+    "Sharpening": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wyostrzanie"
+          }
+        }
+      }
+    },
+    "Sharper upscaling to the display's resolution.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ostrzejsze powiększenie obrazu do rozdzielczości ekranu."
+          }
+        }
+      }
+    },
+    "Sharpest picture from the console.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Najostrzejszy obraz z konsoli."
+          }
+        }
+      }
+    },
+    "Shortcuts (also work in other apps)": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Skróty (działają też w innych aplikacjach)"
+          }
+        }
+      }
+    },
+    "Show diagnostic sources": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pokaż źródła diagnostyczne"
+          }
+        }
+      }
+    },
+    "Show less": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pokaż mniej"
+          }
+        }
+      }
+    },
+    "Show settings": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pokaż ustawienia"
+          }
+        }
+      }
+    },
+    "Show stats": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pokaż statystyki"
+          }
+        }
+      }
+    },
+    "Show video stats": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pokaż statystyki obrazu"
+          }
+        }
+      }
+    },
+    "Skip duplicate frames": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pomijaj powtórzone klatki"
+          }
+        }
+      }
+    },
+    "Smoothness": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Płynność"
+          }
+        }
+      }
+    },
+    "Source": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Źródło"
+          }
+        }
+      }
+    },
+    "Stats": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Statystyki"
+          }
+        }
+      }
+    },
+    "Stats off": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Statystyki wyłączone"
+          }
+        }
+      }
+    },
+    "Stats on": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Statystyki włączone"
+          }
+        }
+      }
+    },
+    "Stream quality": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jakość strumienia"
+          }
+        }
+      }
+    },
+    "Stream quality and controller": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jakość strumienia i pad"
+          }
+        }
+      }
+    },
+    "Switch stream to 720p": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Przełącz strumień na 720p"
+          }
+        }
+      }
+    },
+    "Synthetic 1080p source": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Syntetyczne źródło 1080p"
+          }
+        }
+      }
+    },
+    "Test pattern 24 fps in a 60 fps stream": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wzorzec testowy 24 kl./s w strumieniu 60"
+          }
+        }
+      }
+    },
+    "Test pattern 30 fps": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wzorzec testowy 30 kl./s"
+          }
+        }
+      }
+    },
+    "Test pattern 30 fps in a 60 fps stream": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wzorzec testowy 30 kl./s w strumieniu 60"
+          }
+        }
+      }
+    },
+    "Test pattern 40 fps in a 60 fps stream": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wzorzec testowy 40 kl./s w strumieniu 60"
+          }
+        }
+      }
+    },
+    "Test pattern 50 fps in a 60 fps stream": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wzorzec testowy 50 kl./s w strumieniu 60"
+          }
+        }
+      }
+    },
+    "Test pattern 60 fps": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wzorzec testowy 60 kl./s"
+          }
+        }
+      }
+    },
+    "The console didn't respond to pairing. Check the IP address and that the PS5 is showing the “Link Device” screen.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Konsola nie odpowiedziała na parowanie. Sprawdź adres IP i czy PS5 pokazuje ekran „Połącz urządzenie”."
+          }
+        }
+      }
+    },
+    "The console disconnected the session.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Konsola rozłączyła sesję."
+          }
+        }
+      }
+    },
+    "The console ended the session.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Konsola zakończyła sesję."
+          }
+        }
+      }
+    },
+    "The console is asking for the passcode you use to log in to your account on the PS5.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Konsola prosi o kod, którym logujesz się do swojego konta na PS5."
+          }
+        }
+      }
+    },
+    "The console isn't responding. Check that it's on, or in rest mode with network access enabled.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Konsola nie odpowiada. Sprawdź, czy jest włączona lub w trybie spoczynku z dostępem do sieci."
+          }
+        }
+      }
+    },
+    "The console rejected pairing. Check the PIN on the PS5 screen and the account ID.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Konsola odrzuciła parowanie. Sprawdź kod z ekranu PS5 i identyfikator konta."
+          }
+        }
+      }
+    },
+    "The console rejected the connection. Pair it again.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Konsola odrzuciła połączenie. Sparuj ją ponownie."
+          }
+        }
+      }
+    },
+    "The console stream goes straight into frame generation and upscaling on your Mac — 30 fps games look like 60.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Strumień z konsoli trafia prosto do generowania klatek i skalowania na Macu — gry 30 kl./s wyglądają jak 60."
+          }
+        }
+      }
+    },
+    "The interpolator rejects the size %@×%@": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Interpolator odrzuca rozmiar %@×%@"
+          }
+        }
+      }
+    },
+    "The pairing PIN must have 8 digits.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kod parowania musi mieć 8 cyfr."
+          }
+        }
+      }
+    },
+    "The previous passcode was incorrect. Enter the passcode you use to log in to your account on the PS5.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Poprzedni kod był nieprawidłowy. Wpisz kod, którym logujesz się do swojego konta na PS5."
+          }
+        }
+      }
+    },
+    "The source stopped.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Źródło zostało zatrzymane."
+          }
+        }
+      }
+    },
+    "The source stopped: %@": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Źródło zostało zatrzymane: %@"
+          }
+        }
+      }
+    },
+    "This Mac doesn't support VideoToolbox frame interpolation.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ten Mac nie obsługuje interpolacji klatek VideoToolbox."
+          }
+        }
+      }
+    },
+    "This console's Remote Play version isn't supported.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wersja Remote Play na konsoli nie jest obsługiwana."
+          }
+        }
+      }
+    },
+    "This may take a moment": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "To może chwilę potrwać"
+          }
+        }
+      }
+    },
+    "This video is too large — it works at 720p or lower.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ten obraz jest za duży — działa przy 720p lub niższej rozdzielczości."
+          }
+        }
+      }
+    },
+    "To play on this console again, you'll need to pair it again with the PIN shown on the PS5.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aby znów grać na tej konsoli, trzeba będzie sparować ją ponownie kodem z ekranu PS5."
+          }
+        }
+      }
+    },
+    "Touchpad — click": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gładzik — kliknięcie"
+          }
+        }
+      }
+    },
+    "Try it without a console": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wypróbuj bez konsoli"
+          }
+        }
+      }
+    },
+    "Turn off overlay": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wyłącz nakładkę"
+          }
+        }
+      }
+    },
+    "Unavailable": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Niedostępna"
+          }
+        }
+      }
+    },
+    "Unmute": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Włącz dźwięk"
+          }
+        }
+      }
+    },
+    "Unpair": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usuń"
+          }
+        }
+      }
+    },
+    "Unpair %@?": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usunąć sparowanie z %@?"
+          }
+        }
+      }
+    },
+    "Unpair…": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usuń sparowanie…"
+          }
+        }
+      }
+    },
+    "Upscaling": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Skalowanie"
+          }
+        }
+      }
+    },
+    "Veyra": {},
+    "Veyra Mac": {},
+    "Vibration": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wibracje"
+          }
+        }
+      }
+    },
+    "Video is shown in an overlay above the source window": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Obraz jest wyświetlany w nakładce nad oknem źródła"
+          }
+        }
+      }
+    },
+    "Volume": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Głośność"
+          }
+        }
+      }
+    },
+    "Waiting for video…": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oczekiwanie na obraz…"
+          }
+        }
+      }
+    },
+    "Wake & play": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wybudź i graj"
+          }
+        }
+      }
+    },
+    "Waking the console…": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wybudzanie konsoli…"
+          }
+        }
+      }
+    },
+    "While playing": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "W trakcie gry"
+          }
+        }
+      }
+    },
+    "Window": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Okno"
+          }
+        }
+      }
+    },
+    "Window %@×%@": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Okno %@×%@"
+          }
+        }
+      }
+    },
+    "Windows from PXPlay, Moonlight and other apps appear here once you allow Screen Recording.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Okna PXPlay, Moonlight i innych aplikacji pojawią się tu po zezwoleniu na nagrywanie ekranu."
+          }
+        }
+      }
+    },
+    "Your consoles": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Twoje konsole"
+          }
+        }
+      }
+    },
+    "bilinear": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "dwuliniowe"
+          }
+        }
+      }
+    },
+    "double-click the video": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "dwuklik w obraz"
+          }
+        }
+      }
+    },
+    "e.g. 192.168.1.20": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "np. 192.168.1.20"
+          }
+        }
+      }
+    },
+    "error: %@": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "błąd: %@"
+          }
+        }
+      }
+    },
+    "frame generation off": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "generowanie wyłączone"
+          }
+        }
+      }
+    },
+    "frameGen.shortLabel.off": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Off"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wył."
+          }
+        }
+      }
+    },
+    "generation unavailable": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "generowanie niedostępne"
+          }
+        }
+      }
+    },
+    "light": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "słabe"
+          }
+        }
+      }
+    },
+    "loading model…": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ładowanie modelu…"
+          }
+        }
+      }
+    },
+    "measuring source frame rate…": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "pomiar tempa źródła…"
+          }
+        }
+      }
+    },
+    "measuring…": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "pomiar…"
+          }
+        }
+      }
+    },
+    "move the mouse": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ruch myszą"
+          }
+        }
+      }
+    },
+    "muted": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "wyciszone"
+          }
+        }
+      }
+    },
+    "no controller": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "brak pada"
+          }
+        }
+      }
+    },
+    "none": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "brak"
+          }
+        }
+      }
+    },
+    "normal": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "normalne"
+          }
+        }
+      }
+    },
+    "number or Base64": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "liczba albo Base64"
+          }
+        }
+      }
+    },
+    "off": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "wyłączone"
+          }
+        }
+      }
+    },
+    "ready": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "włączona"
+          }
+        }
+      }
+    },
+    "rest mode": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "tryb spoczynku"
+          }
+        }
+      }
+    },
+    "skipped — %@ fps source already fills the %@ Hz display": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "pominięte — źródło %@ kl./s wypełnia ekran %@ Hz"
+          }
+        }
+      }
+    },
+    "skipped — Mac can't keep up at %@ fps (%@ ms per frame)": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "pominięte — przy %@ kl./s Mac nie zdąży (%@ ms na klatkę)"
+          }
+        }
+      }
+    },
+    "status unknown": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "stan nieznany"
+          }
+        }
+      }
+    },
+    "streaming app windows, displays and demo": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "okna aplikacji do strumieniowania, ekrany i demo"
+          }
+        }
+      }
+    },
+    "strong": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "mocne"
+          }
+        }
+      }
+    },
+    "unknown reason": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "nieznany powód"
+          }
+        }
+      }
+    },
+    "waiting for video…": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "oczekiwanie na obraz…"
+          }
+        }
+      }
+    },
+    "⌃⌥⌘O also works when another app is active": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "⌃⌥⌘O działa też, gdy aktywna jest inna aplikacja"
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}
