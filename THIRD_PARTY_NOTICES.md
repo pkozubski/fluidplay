@@ -1,6 +1,6 @@
 # Third-party notices
 
-VeyraMac is licensed under the GNU Affero General Public License v3.0 only, with the same additional
+FluidPlay is licensed under the GNU Affero General Public License v3.0 only, with the same additional
 permission for OpenSSL that chiaki-ng uses (see [LICENSE](LICENSE)). It includes or links the following
 third-party software. Their licenses are reproduced below.
 

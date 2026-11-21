@@ -1,29 +1,32 @@
 <p align="center">
-  <img src="docs/images/icon.png" width="128" alt="VeyraMac icon">
+  <img src="docs/images/icon.png" width="128" alt="FluidPlay icon">
 </p>
 
-<h1 align="center">VeyraMac</h1>
+<h1 align="center">FluidPlay — PS5 Remote Play for Mac at 60 fps</h1>
 
 <p align="center">
-  <b>PS5 Remote Play for Apple silicon Macs — with Apple's ML frame generation built in.</b><br>
-  Play your 30 fps console games at a smooth 60 fps (or your display's refresh rate) on a Mac.
+  <b>Open-source PS5 Remote Play client for Apple silicon Macs, with Apple's ML frame generation built in.</b><br>
+  Play your 30 fps console games at a smooth 60 fps (or your display's refresh rate) on a MacBook, iMac or
+  Mac Studio — with DualSense haptics, adaptive triggers and gyro.
 </p>
 
 <p align="center">
+  <a href="https://github.com/pkozubski/fluidplay/releases/latest"><img alt="Download" src="https://img.shields.io/github/v/release/pkozubski/fluidplay?label=download&color=8e5cf7"></a>
   <img alt="Platform" src="https://img.shields.io/badge/platform-macOS%2026%2B-6f42c1">
   <img alt="Apple silicon" src="https://img.shields.io/badge/Apple%20silicon-arm64-8e5cf7">
   <img alt="License" src="https://img.shields.io/badge/license-AGPL--3.0-5b2bd9">
 </p>
 
 <p align="center">
-  <img src="docs/images/home.png" width="860" alt="VeyraMac home screen">
+  <img src="docs/images/home.png" width="860" alt="FluidPlay home screen">
 </p>
 
-> **Unofficial project.** VeyraMac is not affiliated with, endorsed by or sponsored by Sony Interactive
+> **Unofficial project.** FluidPlay is not affiliated with, endorsed by or sponsored by Sony Interactive
 > Entertainment. "PlayStation", "PS5", "DualSense" and "PS Remote Play" are trademarks of Sony Interactive
 > Entertainment Inc. The Remote Play protocol is implemented by the open-source
-> [chiaki-ng](https://github.com/streetpea/chiaki-ng) library. VeyraMac is inspired by
+> [chiaki-ng](https://github.com/streetpea/chiaki-ng) library. FluidPlay is inspired by
 > [Veyra](https://github.com/Likely7/Veyra-NRVideo) for Windows and contains none of its code.
+> Version 1.0.0 was published as *VeyraMac*; settings and paired consoles carry over automatically.
 
 ---
 
@@ -52,7 +55,7 @@
 - **Frame generation with Apple's ML model** (`VTLowLatencyFrameInterpolation`). Every display refresh
   gets a frame from the right moment in time, so 24, 30 and 40 fps games are shown as an even 60 fps
   (or more on ProMotion and external high-refresh displays).
-- **Duplicate-frame detection** — the PS5 sends 30 fps games inside a 60 fps stream; VeyraMac finds the
+- **Duplicate-frame detection** — the PS5 sends 30 fps games inside a 60 fps stream; FluidPlay finds the
   real frames and interpolates between them instead of showing every frame twice.
 - **Sharper image** — MetalFX upscaling to your display resolution, contrast-adaptive sharpening and ML
   super resolution for 720p and lower streams.
@@ -79,15 +82,15 @@
 
 ## Install
 
-1. Download `VeyraMac-<version>.dmg` from the [Releases](https://github.com/pkozubski/VeyraMac/releases/latest) page.
-2. Open it and drag **VeyraMac** to **Applications**.
+1. Download `FluidPlay-<version>.dmg` from the [Releases](https://github.com/pkozubski/fluidplay/releases/latest) page.
+2. Open it and drag **FluidPlay** to **Applications**.
 3. First launch: release builds without an Apple Developer ID signature are blocked by Gatekeeper.
    Open the app once and click **Done** when macOS says it can't verify it. Then open
-   **System Settings → Privacy & Security**, click **Open Anyway** next to "VeyraMac was blocked…",
+   **System Settings → Privacy & Security**, click **Open Anyway** next to "FluidPlay was blocked…",
    authenticate and confirm. Alternatively, in Terminal:
 
    ```bash
-   xattr -dr com.apple.quarantine /Applications/VeyraMac.app
+   xattr -dr com.apple.quarantine /Applications/FluidPlay.app
    ```
 
 4. Allow **Local Network** access when macOS asks — it is required to find and talk to the console.
@@ -100,20 +103,20 @@
 
 ### 1. Enable Remote Play on the PS5
 
-**Settings → System → Remote Play → Enable Remote Play.** To be able to wake the console from VeyraMac,
+**Settings → System → Remote Play → Enable Remote Play.** To be able to wake the console from FluidPlay,
 also enable **Settings → System → Power Saving → Features Available in Rest Mode → Stay Connected to the
 Internet** and **Enable Turning On PS5 from Network**.
 
 ### 2. Find your PSN account ID
 
 The account ID is a number assigned to your PSN account (not your Online ID / user name). It is shown
-as a long decimal number or a Base64 string such as `AbCdEfGhIjk=` — VeyraMac accepts both. Community
+as a long decimal number or a Base64 string such as `AbCdEfGhIjk=` — FluidPlay accepts both. Community
 tools such as PSNTools can look it up from your Online ID.
 
 ### 3. Link the console
 
 1. On the PS5 open **Settings → System → Remote Play → Link Device**. The console shows an 8‑digit code.
-2. In VeyraMac click **Link console** (the link button in the top bar, or **Link Console…** in the menu).
+2. In FluidPlay click **Link console** (the link button in the top bar, or **Link Console…** in the menu).
 3. Pick the console from the list (or type its IP address), paste your account ID and type the code.
 
 The pairing keys are stored in your macOS Keychain.
@@ -176,11 +179,11 @@ What to expect on a 60 Hz display:
 | 30 fps | Every other frame is generated → even 60 fps. The best case. |
 | 40 fps | Real frames land between refreshes; generated frames fill the gaps → 60 fps. Needs ~20 ms per frame or less (borderline on a fanless MacBook Air). |
 | 24 fps | Smoother than without generation, but some refreshes repeat a real frame. |
-| 50 fps | Too fast for base M-series chips at 1080p; VeyraMac switches generation off and tells you why. |
+| 50 fps | Too fast for base M-series chips at 1080p; FluidPlay switches generation off and tells you why. |
 
 Frame generation adds latency, because a frame can only be generated once the next real frame has
 arrived. For 30 fps games expect roughly **45–60 ms** on top of the stream itself. If a frame would be
-late, VeyraMac moves the display timeline back by one refresh for a while instead of stuttering, and
+late, FluidPlay moves the display timeline back by one refresh for a while instead of stuttering, and
 returns when there is headroom again. The current numbers are shown in **Stats**.
 
 > Tip: In games with a "Performance" (60 fps) and a "Quality/Fidelity" (30 fps) mode, the 30 fps mode
@@ -221,8 +224,8 @@ Faster chips (Pro/Max, newer generations) have more headroom for 40–50 fps gam
 <summary><b>The console is not found / shows "Unavailable"</b></summary>
 
 - Make sure the Mac and the PS5 are on the same network and subnet, and that **Local Network** access is
-  allowed for VeyraMac in **System Settings → Privacy & Security → Local Network**.
-- Click ↻ in the top bar to search again. If the console got a new IP address, VeyraMac updates it
+  allowed for FluidPlay in **System Settings → Privacy & Security → Local Network**.
+- Click ↻ in the top bar to search again. If the console got a new IP address, FluidPlay updates it
   automatically when it finds the console again.
 </details>
 
@@ -231,7 +234,7 @@ Faster chips (Pro/Max, newer generations) have more headroom for 40–50 fps gam
 
 - Quit the official PS Remote Play app (only one client can connect).
 - If the console is in rest mode, enable the rest-mode network options listed in [Quick start](#1-enable-remote-play-on-the-ps5).
-- If the console asks for a login PIN, VeyraMac shows a dialog for it.
+- If the console asks for a login PIN, FluidPlay shows a dialog for it.
 - Unpair (⚙︎ on the console card) and link again if the PS5 was reset or the account changed.
 </details>
 
@@ -249,14 +252,14 @@ Open the session log (see [Diagnostics](#diagnostics)). Each hitch is attributed
 <summary><b>Gatekeeper says the app is damaged or can't be opened</b></summary>
 
 Unsigned release builds need **System Settings → Privacy & Security → Open Anyway**, or
-`xattr -dr com.apple.quarantine /Applications/VeyraMac.app`.
+`xattr -dr com.apple.quarantine /Applications/FluidPlay.app`.
 </details>
 
 ## Diagnostics
 
 ### Session log
 
-Every session writes one line per second to `~/Library/Logs/VeyraMac/session_<date>.log`. An abridged,
+Every session writes one line per second to `~/Library/Logs/FluidPlay/session_<date>.log`. An abridged,
 illustrative excerpt:
 
 ```text
@@ -280,7 +283,7 @@ The app binary has headless test modes. They don't need a console (except `--dis
 ```bash
 # Frame generation on a synthetic 30 fps game in a 60 fps stream, with full-screen rendering
 # through MetalFX and up to 8 ms of Wi‑Fi-like arrival jitter:
-/Applications/VeyraMac.app/Contents/MacOS/VeyraMac --selftest fps30in60 --always --render --jitter 8 --seconds 8
+/Applications/FluidPlay.app/Contents/MacOS/FluidPlay --selftest fps30in60 --always --render --jitter 8 --seconds 8
 ```
 
 ```text
@@ -306,7 +309,7 @@ Model warm-up (in background): 22 / 14 / 13 / 13 / 13 / 13 ms
 | `--decode-test FILE [--hevc]` | Feeds an Annex B H.264/HEVC file through the same decoder Remote Play uses. |
 | `--rp-dry-run` | Starts a session with empty keys; the console must refuse — tests error handling. |
 | `--list-windows`, `--capture-test NAME` | Window capture sources (needs Screen Recording permission). |
-| `--ui-test DIR [--demo-console]` | Saves screenshots of the home, connecting and in-game screens. Run it with `open -n -W build/VeyraMac.app --args --ui-test DIR` on an unlocked, awake screen. |
+| `--ui-test DIR [--demo-console]` | Saves screenshots of the home, connecting and in-game screens. Run it with `open -n -W build/FluidPlay.app --args --ui-test DIR` on an unlocked, awake screen. |
 
 ## Building from source
 
@@ -317,14 +320,14 @@ brew install xcodegen cmake pkgconf protobuf miniupnpc libevent json-c opus open
 ```
 
 ```bash
-git clone https://github.com/pkozubski/VeyraMac.git && cd VeyraMac
+git clone https://github.com/pkozubski/fluidplay.git && cd FluidPlay
 Scripts/build-chiaki.sh   # fetches chiaki-ng at a pinned commit into Vendor/ and builds it (once)
-Scripts/build.sh          # builds build/VeyraMac.app for this Mac
-open build/VeyraMac.app
+Scripts/build.sh          # builds build/FluidPlay.app for this Mac
+open build/FluidPlay.app
 ```
 
 `Scripts/build.sh` is for development: it links the Homebrew libraries dynamically and signs the app
-with the first code-signing identity in your keychain (or `VEYRAMAC_SIGN_IDENTITY`), so macOS
+with the first code-signing identity in your keychain (or `FLUIDPLAY_SIGN_IDENTITY`), so macOS
 remembers permissions between rebuilds. The result only runs on a Mac with those Homebrew packages.
 
 ### Release build
@@ -333,7 +336,7 @@ remembers permissions between rebuilds. The result only runs on a Mac with those
 Scripts/release.sh
 ```
 
-This produces `dist/VeyraMac-<version>.dmg` and `.zip` that run on any Apple silicon Mac with macOS 26
+This produces `dist/FluidPlay-<version>.dmg` and `.zip` that run on any Apple silicon Mac with macOS 26
 or newer, without Homebrew: chiaki-ng's dependencies are linked statically, libcurl comes from macOS,
 and the script fails if the binary references anything outside the system or requires a newer macOS.
 The hardened runtime is enabled.
@@ -342,9 +345,9 @@ By default the app is signed **ad hoc** (users see the Gatekeeper prompt describ
 [Install](#install)). With an Apple Developer Program membership you can sign and notarize:
 
 ```bash
-xcrun notarytool store-credentials veyramac-notary --apple-id <apple-id> --team-id <TEAMID>
-VEYRAMAC_RELEASE_IDENTITY="Developer ID Application: <Name> (<TEAMID>)" \
-VEYRAMAC_NOTARY_PROFILE=veyramac-notary \
+xcrun notarytool store-credentials fluidplay-notary --apple-id <apple-id> --team-id <TEAMID>
+FLUIDPLAY_RELEASE_IDENTITY="Developer ID Application: <Name> (<TEAMID>)" \
+FLUIDPLAY_NOTARY_PROFILE=fluidplay-notary \
 Scripts/release.sh
 ```
 
@@ -360,7 +363,7 @@ developer's e-mail address in a public download.
 ### Localization
 
 English is the development language. Translations live in
-`Sources/VeyraMac/Resources/Localizable.xcstrings` (Polish today). Open it in Xcode to add a language;
+`Sources/FluidPlay/Resources/Localizable.xcstrings` (Polish today). Open it in Xcode to add a language;
 new strings appear there after a build.
 
 ## How it works
@@ -379,7 +382,7 @@ new strings appear there after a build.
 | Controller | GameController + CoreHaptics | DualSense haptics, adaptive triggers, gyro, touchpad |
 
 ```
-Sources/VeyraMac
+Sources/FluidPlay
 ├── App/          App model, self-tests, UI tests, game library (snapshots, recently played)
 ├── Capture/      Screen/window capture source and the synthetic test pattern
 ├── Pipeline/     Duplicate detection, frame generation scheduling, VideoToolbox processors, session log
@@ -390,10 +393,10 @@ Sources/VeyraMac
 
 ## Privacy
 
-- Everything stays on your Mac and your local network. VeyraMac has no analytics and no servers.
+- Everything stays on your Mac and your local network. FluidPlay has no analytics and no servers.
 - Pairing keys are stored in the macOS Keychain.
 - Session snapshots (console card backgrounds, recently played) are stored in
-  `~/Library/Application Support/VeyraMac/Snapshots`; session logs in `~/Library/Logs/VeyraMac`.
+  `~/Library/Application Support/FluidPlay/Snapshots`; session logs in `~/Library/Logs/FluidPlay`.
   Delete the folders to remove them.
 
 ## Contributing
@@ -408,7 +411,7 @@ Issues and pull requests are welcome. Before opening a PR:
 
 ## License and credits
 
-VeyraMac is free software under the **GNU Affero General Public License v3.0 only**, with the same
+FluidPlay is free software under the **GNU Affero General Public License v3.0 only**, with the same
 additional permission for linking OpenSSL that chiaki-ng uses — see [LICENSE](LICENSE). Because the app
 links chiaki-ng (AGPL-3.0), any distributed modified version must also be released under the AGPL with
 its source code.

@@ -6,7 +6,7 @@
 // This definition satisfies libevent's reference inside the executable instead. It is hidden, so
 // the app does not export it and system libraries keep using their own pipe2().
 //
-// libevent is only reached by chiaki-ng's internet "holepunch" connection, which VeyraMac never
+// libevent is only reached by chiaki-ng's internet "holepunch" connection, which FluidPlay never
 // starts (LAN only), but the shim is a complete, correct implementation regardless.
 #include <errno.h>
 #include <fcntl.h>

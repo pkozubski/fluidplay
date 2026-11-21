@@ -1,6 +1,14 @@
 # Changelog
 
-## 1.0.0 — first public release
+## 1.0.1 — renamed to FluidPlay
+
+- The app is now called **FluidPlay** (bundle ID `io.github.pkozubski.fluidplay`), with a new icon.
+- On first launch, settings, the measured frame-generation cost, recently played games, session snapshots
+  and paired consoles are carried over from VeyraMac — no need to link the console again.
+- Session logs are now written to `~/Library/Logs/FluidPlay`.
+- Environment variables for the scripts are now `FLUIDPLAY_*` (e.g. `FLUIDPLAY_RELEASE_IDENTITY`).
+
+## 1.0.0 — first public release (as VeyraMac)
 
 ### Remote Play
 - Built-in PS5 Remote Play over the local network (chiaki-ng): pairing with the console's PIN, waking

@@ -1,6 +1,6 @@
 #!/usr/bin/env swift
 // Builds the macOS app icon set from square artwork.
-// Usage: swift Scripts/make-icon.swift Support/Icon/icon-art.png Sources/VeyraMac/Resources/Assets.xcassets/AppIcon.appiconset
+// Usage: swift Scripts/make-icon.swift Support/Icon/icon-art.png Sources/FluidPlay/Resources/Assets.xcassets/AppIcon.appiconset
 //
 // The artwork is masked to Apple's macOS icon grid (an 824 pt continuous-corner squircle centred on a
 // 1024 pt canvas) with a soft drop shadow, then rendered at every size the asset catalog needs.
